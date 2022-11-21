@@ -7,6 +7,7 @@ Student ID number: nb22021
     font-family: 'Russo One';
     src: url(https://fonts.cdnfonts.com/s/15876/RussoOne-Regular.woff) format('woff');
 }
+
 @font-face {
     font-family: 'Monsterrat';
     src: url(https://fonts.cdnfonts.com/s/14883/Montserrat-Regular.woff) format('woff');
@@ -17,6 +18,7 @@ Student ID number: nb22021
     margin-right: 100px;
     background-color:rgba(0, 0, 0, 0.7)
 }
+
 .main-container.section{
     margin-left: 55px;
     margin-right: 55px;
@@ -38,6 +40,7 @@ body {
     height: 100vh;
     background-size: cover;
 }
+
 .slogan {
     color: rgba(0, 0, 0, 0.6);
     text-transform: uppercase;
@@ -71,8 +74,9 @@ body {
     width: 100%;
     background-color: black;
 }
+
 .parent-menu li{
-    text-align: center;
+    vertical-align: middle;
     line-height: 35px;
     padding-right: 8px;
     padding-left: 8px;
@@ -81,12 +85,15 @@ body {
     color: red;
     text-transform: uppercase;
 }
+
 .sub-menu-caption{
+    text-align: left;
     float: left;
     border-left: 1px solid;
     border-right: 1px solid;
     border-color: rgba(255, 0, 0, 0.5);
 }
+
 .sub-menu {
     display: none;
     position: absolute;
@@ -107,7 +114,7 @@ body {
 
 .sub-menu a{
     text-decoration: none;
-    color:rgba(255, 255, 255, 0.6)
+    color:rgba(255, 255, 255, 0.7);
 }
 
 .sub-menu a:hover:nth-child(1n+1){
@@ -123,11 +130,13 @@ body {
     border-right: 1px solid;
     border-color: rgba(255, 0, 0, 0.5);
 }
+
 .upper-menu a:hover:nth-child(1n+1){
     text-decoration: underline;
 }
+
 .upper-menu a:link{
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.7);
     text-decoration: none;
 }
 
@@ -136,9 +145,11 @@ body {
     border-right: none;
     background-color: rgba(255, 0, 0, 0.5);
 }
+
 .title-red{
     color: red;
 }
+
 h1, h2, h3{
     font-family: 'Russo One', sans-serif;
     color: white;
@@ -207,6 +218,7 @@ p {
     width: 20%;
     height: auto;
 }
+
 .img-text {
     font-family: 'Russo One', sans-serif;
     font-size: 18pt;
@@ -215,8 +227,8 @@ p {
     text-transform: capitalize;
     position: absolute;
     margin-left: 40vw;
-    
 }
+
 #image-right img{
     display: block;
     float: right;
@@ -246,6 +258,7 @@ p {
     border-top: 1px solid rgba(255, 0, 0, 0.5);
     border-bottom: 1px solid rgba(255, 0, 0, 0.5);
 }
+
 .spec-container {
     padding: 40px 8% 40px 8%;
     text-align: left;
@@ -350,4 +363,3 @@ p {
     text-align: center;
     line-height: 1.5;
 }
-
