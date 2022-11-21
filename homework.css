@@ -1,0 +1,353 @@
+/*Info about the author 
+Name, surname: Nils Baumanis
+Student ID number: nb22021
+*/
+
+@font-face {
+    font-family: 'Russo One';
+    src: url(https://fonts.cdnfonts.com/s/15876/RussoOne-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: 'Monsterrat';
+    src: url(https://fonts.cdnfonts.com/s/14883/Montserrat-Regular.woff) format('woff');
+}
+
+#page-container{
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:rgba(0, 0, 0, 0.7)
+}
+.main-container.section{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+
+body {
+    background-image: url("images/background.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.top-img {
+    position: relative;
+    background-image: url("images/intro-img-812gts.jfif");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 100vh;
+    background-size: cover;
+}
+.slogan {
+    color: rgba(0, 0, 0, 0.6);
+    text-transform: uppercase;
+    text-shadow: 1px 2px;
+    font-family: 'Russo One', sans-serif;
+    position: absolute;
+    bottom: 50px;
+    margin-left: 40%;
+    font-size: 30px;
+}
+
+#logo{
+    position: sticky;
+    float: right;
+    width: 55px;
+    margin: 0;
+    padding: 0;
+    bottom: 0;
+}
+
+#logo:hover{
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+#main-menu{
+    position: relative;
+    display: inline-block;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+.parent-menu li{
+    text-align: center;
+    line-height: 35px;
+    padding-right: 8px;
+    padding-left: 8px;
+    font-family: 'Monsterrat';
+    font-size: 10pt;
+    color: red;
+    text-transform: uppercase;
+}
+.sub-menu-caption{
+    float: left;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgba(255, 0, 0, 0.5);
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: black;
+    width: 119.38px;
+    left: 0;
+}
+
+.sub-menu li{
+    text-align: left;
+    border-right: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    border-color: rgba(255, 0, 0, 0.5);
+    font-style: italic;
+    font-size: 9pt;
+}
+
+.sub-menu a{
+    text-decoration: none;
+    color:rgba(255, 255, 255, 0.6)
+}
+
+.sub-menu a:hover:nth-child(1n+1){
+    color: red;
+    text-decoration: underline;
+}
+
+.sub-menu-caption:hover .sub-menu{
+    display: block;
+}
+.upper-menu{
+    float: left;
+    border-right: 1px solid;
+    border-color: rgba(255, 0, 0, 0.5);
+}
+.upper-menu a:hover:nth-child(1n+1){
+    text-decoration: underline;
+}
+.upper-menu a:link{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.upper-menu.right-menu{
+    float: right;
+    border-right: none;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+.title-red{
+    color: red;
+}
+h1, h2, h3{
+    font-family: 'Russo One', sans-serif;
+    color: white;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+h1{
+    font-size: 12pt;
+}
+
+h2{
+    font-size: 12pt;
+    text-transform: capitalize;
+}
+
+h3{
+    font-size: 10pt;
+}
+
+p {
+    font-family: 'Monsterrat', sans-serif;
+    color: rgba(255, 255, 255, 0.6);
+    text-align: justify;
+    font-size: 8pt;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.lead {
+    color: white;
+}
+
+#fuel-consuption{
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+#fuel-consumption p{
+    text-transform: uppercase;
+}
+
+.column-1{
+    width: 25%;
+    float: left;
+}
+
+#fuel-consumption-add {
+    width: 50%;
+    float: left;
+    height: 158px;
+}
+
+.column-2.small p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 6.5pt;
+    bottom: 0;
+    right: 0;
+}
+
+#interior-img{
+    float: left;
+    margin-right: 8px;
+    width: 20%;
+    height: auto;
+}
+.img-text {
+    font-family: 'Russo One', sans-serif;
+    font-size: 18pt;
+    color: red;
+    text-shadow: 1px 1px 2px black;
+    text-transform: capitalize;
+    position: absolute;
+    margin-left: 40vw;
+    
+}
+#image-right img{
+    display: block;
+    float: right;
+    margin-left: 8px;
+    width: 50%;
+    min-width: 480px;
+    height: auto;
+}
+
+.dynamics-list{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 8pt;
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.5;
+    list-style-type: circle;
+    list-style-position: inside;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.dynamics-list li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.spec-container.section{
+    border-top: 1px solid rgba(255, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+}
+.spec-container {
+    padding: 40px 8% 40px 8%;
+    text-align: left;
+}
+
+.spec-container > h2 {
+    margin: 0 0 20px 0;
+}
+
+.spec-container::after {
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.spec-container .specs:not(.bottom) {
+    width: 50%;
+    display: block;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.spec-container .specs:not(.bottom) dl {
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding: 0;
+    font-family: 'Monsterrat';
+    font-size: 8pt;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.spec-container .specs:not(.bottom) dl dt {
+    margin: 0;
+    float: left;
+    width: 40%;
+    padding-top: 5px;
+}
+
+.spec-container .specs:not(.bottom) dl dd {
+    padding-top: 5px;
+    width: 70%;
+}
+
+.spec-container .bottom {
+    width: 100%;
+    font-family: 'Monsterrat';
+    font-size: 8pt;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.spec-container .bottom dl dt {
+    display: inline;
+}
+
+.spec-container .bottom dl dd {
+    display: inline;
+}
+
+.spec-container .bottom dl dd::after {
+    content: "\a";
+    white-space: pre;
+}
+
+.specs > h3 {
+    font-weight: 100;
+}
+
+.menu-bottom{
+    margin-top: 5px;
+    text-align: center;
+}
+
+.menu-bottom a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.5);
+    text-transform: capitalize;
+    font-family: 'Monsterrat';
+    font-size: 8pt;
+}
+
+.menu-bottom li{
+    display: inline-block;
+    border-right: 1px solid rgba(255, 0, 0, 0.5);
+    text-align: center;
+    vertical-align: center;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.menu-bottom li:nth-child(5){
+    border-right: none;
+}
+
+.menu-bottom a:hover:nth-child(1n+1){
+    text-decoration: underline;
+}
+
+#copyright{
+    font-family: 'Monsterrat';
+    font-size: 6pt;
+    color: rgba(255, 0, 0, 0.5);
+    text-align: center;
+    line-height: 1.5;
+}
+
