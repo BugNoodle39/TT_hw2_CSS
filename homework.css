@@ -3,6 +3,7 @@ Name, surname: Nils Baumanis
 Student ID number: nb22021
 */
 
+/* Fonts */
 @font-face {
     font-family: 'Russo One';
     src: url(https://fonts.cdnfonts.com/s/15876/RussoOne-Regular.woff) format('woff');
@@ -13,10 +14,11 @@ Student ID number: nb22021
     src: url(https://fonts.cdnfonts.com/s/14883/Montserrat-Regular.woff) format('woff');
 }
 
+/* Page */
 #page-container{
     margin-left: 100px;
     margin-right: 100px;
-    background-color:rgba(0, 0, 0, 0.7)
+    background-color:rgba(0, 0, 0, 0.6)
 }
 
 .main-container.section{
@@ -32,6 +34,7 @@ body {
     background-position: center center;
 }
 
+/* Top Banner */
 .top-img {
     position: relative;
     background-image: url("images/intro-img-812gts.jfif");
@@ -48,23 +51,11 @@ body {
     font-family: 'Russo One', sans-serif;
     position: absolute;
     bottom: 50px;
-    margin-left: 40%;
+    margin-left: 35%;
     font-size: 30px;
 }
 
-#logo{
-    position: sticky;
-    float: right;
-    width: 55px;
-    margin: 0;
-    padding: 0;
-    bottom: 0;
-}
-
-#logo:hover{
-    border: 1px solid rgba(255, 0, 0, 0.5);
-}
-
+/* Navigation manu */
 #main-menu{
     position: relative;
     display: inline-block;
@@ -73,6 +64,7 @@ body {
     top: 0;
     width: 100%;
     background-color: black;
+    z-index: 1;
 }
 
 .parent-menu li{
@@ -150,6 +142,7 @@ body {
     color: red;
 }
 
+/* Main text */
 h1, h2, h3{
     font-family: 'Russo One', sans-serif;
     color: white;
@@ -184,9 +177,14 @@ p {
     color: white;
 }
 
+/* Fuel Consumption and Emissions */
 #fuel-consuption{
     border: 3px solid #fff;
     padding: 20px;
+}
+
+.para-head{
+    color: rgba(255, 255, 255, 0.6);
 }
 
 #fuel-consumption p{
@@ -201,17 +199,19 @@ p {
 #fuel-consumption-add {
     width: 50%;
     float: left;
-    height: 158px;
+    margin-top: 90px;
+    height: 70px;
 }
 
 .column-2.small p{
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 6.5pt;
+    font-size: 6pt;
     bottom: 0;
     right: 0;
 }
 
+/* Images */
 #interior-img{
     float: left;
     margin-right: 8px;
@@ -254,6 +254,7 @@ p {
     margin-bottom: 5px;
 }
 
+/* specifications section */
 .spec-container.section{
     border-top: 1px solid rgba(255, 0, 0, 0.5);
     border-bottom: 1px solid rgba(255, 0, 0, 0.5);
@@ -356,10 +357,24 @@ p {
     text-decoration: underline;
 }
 
+/* Fotter */
 #copyright{
     font-family: 'Monsterrat';
     font-size: 6pt;
     color: rgba(255, 0, 0, 0.5);
     text-align: center;
     line-height: 1.5;
+}
+
+#logo{
+    position: fixed;
+    width: 55px;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    bottom: 0;
+}
+
+#logo:hover{
+    border: 2px solid rgba(255, 0, 0, 0.5);
 }
